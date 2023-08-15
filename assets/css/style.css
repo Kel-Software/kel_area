@@ -1,0 +1,129 @@
+@font-face {
+    font-family: MinecraftFont;
+    src: url(../fonts/Minecraft.ttf);
+}
+
+
+.header-box{
+    width: 100%;
+    height: 20%;
+    background-image: url('../media/header.png');
+    background-size: cover;
+}
+.header-box-2{
+    width: 100%;
+    height: 135px;
+}
+
+.header-img {
+    display: block; 
+    margin: 0px auto;
+    max-width: 10%;
+    color: aqua;
+
+}
+
+.nav-box{
+    position: fixed;
+    background-color: #403d5e;
+    height: 5%;
+    width: 100%;
+}
+
+.cookies {
+    position: fixed;
+    left: 81%;
+    top: 90%;
+}
+
+.seperator{
+    width: 100%;
+    height: 10px;
+    bottom: 2000px;
+}
+
+/* Boşluklar ve boyutlar düzenlenecek */
+.cards{
+    width: 100%;
+    height: 100%;
+}
+
+
+.articles{
+  margin-right: 20%;
+}
+
+/* Çok boktan oldu düzelitilip ikon eklenecek */
+.article-navigation{
+  margin-left: 77.5%;
+
+}
+
+.rgb-box {
+  width: 200px;
+  height: 200px;
+  fill: red;
+}
+
+.last-articles {
+    position: fixed;
+    top: 30%;
+    left: 15%;
+}
+
+.last-projects-text{
+    color: white;
+    font-family: "MinecraftFont";
+}
+
+.last-projects-box{
+    border: 1px solid #403d5e;
+    width: 750px;
+    height: 120px;
+    background-image: url('../media/banner.png'); /* Arkaplan resminin URL'si */
+    background-size: cover; /* Resmin kutuyu kaplaması için */
+    background-position: center;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.container {
+    position: fixed;
+    left: 65%;
+    display: flex;
+    align-items: center;
+}
+
+.dikey-cizgi {
+    width: 1px;
+    height: 200px; /* Çizgi uzunluğu */
+    background-color: #ccc; /* Çizgi rengi */
+    margin-right: 20px; /* Çizgi ile daireler arasındaki boşluk */
+}
+
+.daireler {
+    display: flex;
+    flex-direction: column;
+}
+
+.daire {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-bottom: 20px; /* Daireler arasındaki boşluk */
+}
+
+.metin {
+    margin-left: 10px; /* Metin ile daire arasındaki boşluk */
+}
+
+.daire:before {
+    content: "";
+    width: 40px; /* Daire genişliği */
+    height: 40px; /* Daire yüksekliği */
+    background-color: red;
+    border-radius: 50%; /* Daire şekli için */
+    position: absolute; /* Mutlak pozisyon */
+    right: -30px; /* Çizgi ile daire arasındaki uzaklık */
+}
