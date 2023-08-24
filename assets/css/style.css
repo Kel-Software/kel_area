@@ -33,7 +33,7 @@ body {
   left: 0;
   top: 0;
   width: 100%;
-  background-image: url("../media/header.png");
+  background-image: url("https://cdn.discordapp.com/attachments/727084988033662979/1144240532210597908/image.png");
   -webkit-mask-image: -webkit-gradient(
     linear,
     left top,
@@ -44,7 +44,7 @@ body {
 }
 .header-box-2 {
   width: 100%;
-  height: 135px;
+  height: 250px;
 }
 
 .header-img {
