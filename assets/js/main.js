@@ -65,3 +65,6 @@ nav.find('ul li a').click(function(e) {
   }
 });
 
+document.querySelectorAll(".projcard-description").forEach(function(box) {
+	$clamp(box, {clamp: 6});
+});

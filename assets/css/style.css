@@ -41,6 +41,13 @@ body {
     from(rgba(0, 0, 0, 1)),
     to(rgba(0, 0, 0, 0))
   );
+  mask-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 0))
+  );
 }
 .header-box-2 {
   width: 100%;
@@ -56,7 +63,7 @@ body {
 
 nav {
     position: relative;
-    bottom: 35%;
+    bottom: 27%;
   }
   
   nav .line {
@@ -121,7 +128,7 @@ input[type="radio"] {
 }
 .container {
   position: absolute;
-  margin-top: 10%;
+  margin-top: 15%;
   width: 100%;
   max-width: 800px;
   max-height: 600px;
@@ -246,6 +253,14 @@ img {
 #item-3:checked ~ .player #test {
   transform: translateY(-80px);
 }
+
+.check-wiki {
+    position: absolute;
+    background-image: url("https://cdn.discordapp.com/icons/744189915998453801/7340315d9c957a069bc94481e64cfc5d.webp?size=256");
+    top:100%;
+    
+}
+
 
 @media (max-width: 768px) {
     .container {
