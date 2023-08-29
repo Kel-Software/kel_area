@@ -7,7 +7,7 @@
     position: absolute;
     background-color: #171a25;
     top: 35%;
-    height: 150%;
+    height: 155%;
     width: 60%;
     border-radius: 1.5%;
 }
@@ -74,4 +74,60 @@
     color: white;
     width: 75%;
     left: -2%;
+}
+
+.product-modrinth {
+    position: relative;
+    top: 53%;
+}
+
+.product-github {
+    position: relative;
+    top: 55%;
+}
+
+.product-planetminecraft {
+    position: relative;
+    top: 57%;
+}
+
+.product-link {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    left: 2%;
+}
+
+.seperator {
+    position: relative;
+    top: 57%;
+}
+
+.avatar {
+    vertical-align: middle;
+    position: relative;
+    top: 58.5%;
+    left: 2%;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+  }
+
+  .author-name {
+    position: relative;
+    top: 48%;
+    left: 20%;
+    font-size: x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+  }
+
+.author-bio {
+    position: relative;
+    top: 47%;
+    left: 20%;
+    color: white;
+    max-width: 600px;
 }
